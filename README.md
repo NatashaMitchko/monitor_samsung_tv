@@ -13,3 +13,11 @@ Type/ Length (2 bytes)
 Data/ Payload (42-1500 bytes)
 Frame Check Sequence (CRC)
 
+
+Connected devices I know about:
+- Phone
+- Computer
+- Work Phone
+- Work Computer
+- TV
+- Google Home
