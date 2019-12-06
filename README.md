@@ -1,5 +1,8 @@
 # What is my tv doing?
 
+
+Notes:
+
 How are network packets constructed (http)?
 
 https wrapped in an ip-packet (address and return address)
@@ -13,6 +16,12 @@ Type/ Length (2 bytes)
 Data/ Payload (42-1500 bytes)
 Frame Check Sequence (CRC)
 
+Naming your wireless network is really naming the service set identifier (SSID)
+The name of your router is how it is identified to other devices on the network
+
+
+Okay, found the samsung tv mac address...
+`sudo nmap -sn X.X.X.X/24`
 
 Connected devices I know about:
 - Phone
@@ -21,3 +30,9 @@ Connected devices I know about:
 - Work Computer
 - TV
 - Google Home
+
+
+Rescources:
+- https://lifehacker.com/know-your-network-the-complete-guide-5833254
+- `brew install nmap`
+
