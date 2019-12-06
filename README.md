@@ -1,5 +1,8 @@
 # What is my tv doing?
 
+Rescources:
+- https://lifehacker.com/know-your-network-the-complete-guide-5833254
+- `brew install nmap`
 
 Notes:
 
@@ -31,8 +34,6 @@ Connected devices I know about:
 - TV
 - Google Home
 
-
-Rescources:
-- https://lifehacker.com/know-your-network-the-complete-guide-5833254
-- `brew install nmap`
+Next steps:
+- script to monitor outbound traffic from the samsung tv mac address
 
